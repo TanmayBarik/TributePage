@@ -1,0 +1,91 @@
+@font-face {
+    font-family: mouse-memoirs;
+    src: url(MouseMemoirs-Regular.ttf);
+}
+
+* {
+    background: #ABC4AA ;
+    margin: 0;
+    font-family: mouse-memoirs;
+    padding: 0px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+p {
+    background: #e4dccf;
+    padding: 10px 10px;
+    height: auto;
+}
+
+h1 {
+    font-size: 80px;
+    color:#f9f5eb;
+    background-color:#002B5B;
+    width:500px;
+    height:100px;
+    line-height: 100px;
+    padding-left: 10px;
+}
+
+#quote_and_image {
+    display: flex;
+}
+
+h3 {
+    background-color: #E4DCCF;
+    text-align:center;
+    padding: 50px 10px;
+}
+
+#studio_img {
+    height:161px;
+    width:500px;
+}
+
+.name_and_intro{
+    display: flex;
+}
+
+#Name {
+    height:auto;
+}
+
+#Intro {
+    background: #ea5455;
+    padding: 40px 10px;
+}
+
+.img_and_discription {
+    display: flex;
+    align-items: center;
+}
+
+#discription1 {
+    background: #E4DCCF;
+    padding: 20px 10px;
+}
+
+#discription2 {
+    background: #F9F5EB;
+    padding: 20px 10px;
+}
+
+#Walt_img {
+    width: 300px;
+    height: 400px;
+    border: #f9f5eb solid 5px;
+    border-radius: 0px;
+    
+}
+
+#closing_img {
+    height: 200px;
+    border: #e4dccf solid 5px;
+}
+
+.timeline_and_img_discription_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
